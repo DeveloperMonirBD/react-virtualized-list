@@ -35,10 +35,10 @@ src/ │ ├── components/ │ └── ListItem.jsx │ ├── App.js �
 ## 📦 Installation
 
 # Clone the repository
-git clone https://github.com/DeveloperMonirBD/React-Virtualized.git
+git clone https://github.com/DeveloperMonirBD/react-virtualized-list.git
 
 # Navigate into the project
-cd react-virtualized
+cd react-virtualized-list
 
 # Install dependencies
 npm install
