@@ -25,14 +25,8 @@ This project demonstrates how to efficiently render a large list (5000+ items) u
 ---
 
 ## 📂 Project Structure
-src/
-│
-├── components/
-│ └── ListItem.jsx
-│
-├── App.js
-├── App.css
-└── index.js
+
+src/ │ ├── components/ │ └── ListItem.jsx │ ├── App.js ├── App.css └── index.js
 
 ```bash
 
@@ -41,10 +35,10 @@ src/
 ## 📦 Installation
 
 # Clone the repository
-git clone https://github.com/your-username/react-virtualized-list.git
+git clone https://github.com/DeveloperMonirBD/React-Virtualized.git
 
 # Navigate into the project
-cd react-virtualized-list
+cd react-virtualized
 
 # Install dependencies
 npm install
@@ -56,12 +50,15 @@ npm install
 ```Bash
 npm start
 ```
-App will run at: 
+
+App will run at:
+
 ```
 http://localhost:5173
 ```
 
 ## 🧠 How It Works
+
 - `react-virtualized` renders only the visible rows in the viewport.
 - `AutoSizer` automatically adjusts width and height based on the container.
 - `List` component handles rendering large datasets efficiently.
@@ -84,7 +81,9 @@ http://localhost:5173
 </AutoSizer>
 
 ```
+
 ## ⚠️ Performance Tips
+
 - Use `useMemo` to avoid recreating large datasets on every render.
 - Use `React.memo` for list items to prevent unnecessary re-renders.
 - Keep row height fixed for better performance.
@@ -96,6 +95,7 @@ npm install react-virtualized lorem-ipsum
 ```
 
 ## 📸 Demo Data
+
 - 👤 Name
 - 🖼️ Image (placeholder)
 - 📝 Random sentence (generated via lorem-ipsum)
@@ -110,8 +110,7 @@ npm install react-virtualized lorem-ipsum
 
 ## 🤝 Contributing
 
-Contributions are welcome!
-Feel free to fork this repo and submit a pull request.
+Contributions are welcome! Feel free to fork this repo and submit a pull request.
 
 ## ⭐ Support
 
